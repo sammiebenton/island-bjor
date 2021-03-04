@@ -2,12 +2,11 @@
   "name": "funscripts",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "getdrinks.js",
   "browserslist": [
     "last 2 Chrome versions"
   ],
   "scripts": {
-    "start": "parcel index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -17,10 +16,6 @@
     "puppeteer": "^7.1.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.12.8",
-    "@babel/core": "^7.12.9",
-    "@babel/preset-env": "^7.12.7",
-    "sass": "^1.29.0"
   },
   "alias": {
     "puppeteer": "./js/puppeteer"
