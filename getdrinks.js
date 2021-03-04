@@ -55,7 +55,7 @@ const fs = require( 'fs' );
   const products = await extractProducts(firstUrl)
   // console.log(products)
 
-  fs.appendFile('./data/drinks.json', JSON.stringify(products), function (err) {
+  fs.writeFile('./data/drinks.json', JSON.stringify(products), function (err) {
     if (err) throw err;
     console.log('Saved!');
   });
